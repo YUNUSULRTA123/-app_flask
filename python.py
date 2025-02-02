@@ -37,10 +37,10 @@ def brosok_monetki():
     Orel_ili_reshka=random.choice(1,2)
     if Orel_ili_reshka == 1:
         return f'''
-ВАМ ВЫПАЛ ОРЁЛ
+<p>ВАМ ВЫПАЛ ОРЁЛ</p>
 '''
     elif Orel_ili_reshka == 2:
         return f'''
-ВАМ ВЫПАЛА РЕШКА
+<p>ВАМ ВЫПАЛА РЕШКА</p>
 '''
 app.run(debug=True)
