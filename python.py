@@ -9,6 +9,7 @@ def index():
     <h1>HELLO GUYS!!!!!</h1>
     <a href="/randomfact">Посмотреть случайный факт!</a>    
     <a href="/passwordgenerator">Случайный пароль!</a>
+    <a href="/orelilireshka">ОРЁЛ И ОРЕШКА</a>
     '''
 @app.route("/randomfact")
 def facts():
